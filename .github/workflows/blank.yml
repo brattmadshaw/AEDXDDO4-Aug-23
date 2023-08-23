@@ -28,13 +28,13 @@ jobs:
       # Script
       - name: Run a multi-line script
         run: |
-          echo getting date and time...
+          echo -e "\e[32mgetting date and time...\e[0m
           date
-          echo getting working directory...
+          echo -e "\e[32mgetting working directory...\e[0m
           pwd
-          echo navigating the filesystem...
+          echo -e "\e[32mnavigating the filesystem...\e[0m
           cd ..
-          echo listing files in directory...
+          echo -e "\e[32mlisting files in directory...\e[0m
           ls -la
-          echo listing current processess running...
+          echo -e "\e[32mlisting current processess running...\e[0m
           ps -e
