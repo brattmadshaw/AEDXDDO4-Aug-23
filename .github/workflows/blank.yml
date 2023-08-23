@@ -29,3 +29,6 @@ jobs:
       - name: Run a multi-line script
         run: |
           date
+          pwd
+          ls -la
+          ps -e
